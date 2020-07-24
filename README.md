@@ -15,7 +15,7 @@ npm run serve
 npm run build
 ```
 
-Couple of things I should mention though:
+A couple of things I should mention though:
 
 1. Filter functionality in each table now only filters through already received and rendered items. Ideally, and if the API allows it, I would prefer to send a request with a filtering query and get a proper filtered response from a server. That way the user can see more results without needing to scroll down and load more. Coincap API also provides multiple parameters for searching, which makes it inconvenient for front-end in case we only want to use one search input instead of adding one to each column.
 
