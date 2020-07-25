@@ -23,6 +23,6 @@ A couple of things I should mention though:
 
 3. If I had more time I would probably do something more sophisticated with WebSocket real-time update functionality, especially flashing the rows that have been updated. Also, I wasn't sure if that part was even needed :).
 
-4. I would also prefer to create a separate component for rendering table lists like that. However, the only way to customize the output in the Vuetify table component is through slots, which would've made said component to bloated. That is why I went with a mixin instead.
+4. I would also prefer to create a separate component for rendering table lists like that. However, the only way to customize the output in the Vuetify table component is through slots, which would've made said component too bloated. That is why I went with a mixin instead.
 
 PS: Also I replicated coincap.io Exchanges and Charts page, because I wasn't sure if all of the markets needed to be displayed on a separate page, or just exchange specific like it's done on coincap.io. If I didn't understand the task properly and something else needs to be added I will happily do so.
